@@ -110,7 +110,9 @@ void main(void)
 }
 
 void Angle() {
+
     system("cls");
+
     printf("\t\t\t\t\t\t####################\n");
     printf("\t\t\t\t\t\t# Angle Conversion #\n");
     printf("\t\t\t\t\t\t####################");
@@ -124,13 +126,10 @@ void Angle() {
     printf("6. Gradians  to radians\n\n");
     printf("7. Return to main menu\n");
 
-    int choice;
     printf("\n>> Enter your choice: ");
     scanf("%d", &choice);
 
 
-
-    double result;
     switch (choice) {
         case 1:
             printf("\n\n>> Enter the value: ");
@@ -172,7 +171,9 @@ void Angle() {
 }
 
 void Angular_Speed() {
+
         system("cls");
+
         printf("\t\t\t\t\t\t############################\n");
         printf("\t\t\t\t\t\t# Angular Speed Conversion #\n");
         printf("\t\t\t\t\t\t############################");
@@ -207,7 +208,9 @@ void Angular_Speed() {
 }
 
 void Area() {
+
     system("cls");
+
     printf("\t\t\t\t\t\t###################\n");
     printf("\t\t\t\t\t\t# Area Conversion #\n");
     printf("\t\t\t\t\t\t###################");
@@ -236,41 +239,49 @@ void Area() {
         case 1:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf square inches = %.5lf square centimeters\n\n", value, value * 6.45);
             break;
         case 2:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf square centimeters = %.5lf square inches\n\n", value, value * 0.16);
             break;
         case 3:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf square feet = %.5lf square meters\n\n", value, value * 0.09);
             break;
         case 4:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf square meters = %.5lf square feet\n\n", value, value * 10.76);
             break;
         case 5:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf square miles = %.5lf square kilometers\n", value, value * 2.59);
             break;
         case 6:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf square kilometers = %.5lf square miles\n\n", value, value * 0.39);
             break;
         case 7:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf hectares = %.5lf acres\n\n", value, value * 2.47);
             break;
         case 8:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf acres = %.5lf hectares\n\n", value, value * 0.40);
             break;
         case 9 :
@@ -283,7 +294,9 @@ void Area() {
 }
 
 void Energy() {
+
     system("cls");
+
     printf("\t\t\t\t\t\t#####################\n");
     printf("\t\t\t\t\t\t# Energy Conversion #\n");
     printf("\t\t\t\t\t\t#####################");
@@ -398,6 +411,7 @@ void Energy() {
 }
 
 void length() {
+
     system("cls");
 
     printf("\t\t\t\t\t\t#####################\n");
@@ -434,61 +448,73 @@ void length() {
     case 1:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf in\n\n", value * 39.4);
          break;
     case 2:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf m\n\n", value / 39.4);
          break;
     case 3:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf ft\n\n", value * 3.28);
          break;
     case 4:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf m\n\n", value / 3.28);
          break;
     case 5:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf cm\n\n", value * 100);
          break;
     case 6:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf m\n\n", value / 100);
          break;
     case 7:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf m\n\n", value * 1000);
          break;
     case 8:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf km\n\n", value / 1000);
          break;
     case 9:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf miles\n\n", value / 1.609344);
          break;
     case 10:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf km\n\n", value * 1.609344);
          break;
     case 11:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf in\n\n", value * 12);
          break;
     case 12:
          printf("\n\n>> Enter the value: ");
          scanf("%lf", &value);
+         value =  abs(value);
          printf("\n\nConversion result = %.2lf ft\n\n", value / 12);
          break;
     case 13:
@@ -529,41 +555,49 @@ void Mass() {
     case 1:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf lb\n\n",  value * 60);
       break;
     case 2:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf kg\n\n",  value /60);
       break;
     case 3:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf oz\n\n",  value *35.27396);
       break;
     case 4:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf kg\n\n",  value /35.27396);
       break;
     case 5:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf oz\n\n",  value * 16);
       break;
     case 6:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf lb\n\n",  value / 16);
       break;
     case 7:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf g\n\n",  value *  28.3495);
       break;
     case 8:
         printf("\n\n>> Enter the value: ");
         scanf("%lf", &value);
+        value =  abs(value);
       printf("\n\nThe Result = %.3lf oz\n\n",  value / 28.3495);
       break;
     case 9:
@@ -651,71 +685,83 @@ void Pressure() {
             case(1):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf kPa = %.5lf atm\n\n", value, value*0.00986923267);
                 break;
 
             case(2):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                  printf("\n\n%.3lf atm = %.3lf kPa\n\n", value, value*101.325 );
                  break;
 
             case(3):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf kPa  %.3lf torr\n\n", value, value*7.50061682 );
                 break;
 
             case(4):printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf torr = %.3lf kpa\n\n", value, value*.13333 );
                 break;
 
             case(5):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf kPa = %.3lf bar\n\n", value, value*.01);
                 break;
 
             case(6):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf bar = %.3lf kPa\n\n", value, value*100);
                 break;
 
             case(7):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf atm = %.3lf torr\n\n", value, value*760);
                 break;
 
             case(8):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf torr = %.3lf atm\n\n", value, value*0.0013157);
                 break;
 
             case(9):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf atm = %.3lf bar\n\n", value, value*1.01325);
                 break;
 
             case(10):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf bar = %.3lf atm\n\n", value, value*.98692);
                 break;
 
             case(11):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf torr = %.3lf bar\n\n", value, value*0.00133322368);
                 break;
 
             case(12):
                 printf("\n\n>> Enter the value: ");
                 scanf("%lf",&value);
+                value =  abs(value);
                 printf("\n\n%.3lf bar = %.3lf torr\n\n", value, value*750.062);
                 break;
             case (13):
@@ -815,20 +861,20 @@ void SI_Prefixes() {
         case 4:
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
-            printf("\n\n%.3lf µ = %.3lf f\n", value, value * 1e9);
-            printf("%.3lf µ = %.3lf p\n", value, value * 1e6);
-            printf("%.3lf µ = %.3lf n\n", value, value * 1e3);
-            printf("%.3lf µ = %.6lf m\n", value, value * 1e-3);
-            printf("%.3lf µ = %.7lf c\n", value, value * 1e-4);
-            printf("%.3lf µ = %.8lf d\n", value, value * 1e-5);
-            printf("%.3lf µ = %.9lf basic unit\n", value, value * 1e-6);
-            printf("%.3lf µ = %.10lf da\n", value, value * 1e-7);
-            printf("%.3lf µ = %.11lf h\n", value, value * 1e-8);
-            printf("%.3lf µ = %.12lf k\n", value, value * 1e-9);
-            printf("%.3lf µ = %.15lf M\n", value, value * 1e-12);
-            printf("%.3lf µ = %.18lf G\n", value, value * 1e-15);
-            printf("%.3lf µ = %.21lf T\n", value, value * 1e-18);
-            printf("%.3lf µ = %.24lf P\n\n", value, value * 1e-21);
+            printf("\n\n%.3lf µ = %.3lf f\n\n", value, value * 1e9);
+            printf("%.3lf µ = %.3lf p\n\n", value, value * 1e6);
+            printf("%.3lf µ = %.3lf n\n\n", value, value * 1e3);
+            printf("%.3lf µ = %.6lf m\n\n", value, value * 1e-3);
+            printf("%.3lf µ = %.7lf c\n\n", value, value * 1e-4);
+            printf("%.3lf µ = %.8lf d\n\n", value, value * 1e-5);
+            printf("%.3lf µ = %.9lf basic unit\n\n", value, value * 1e-6);
+            printf("%.3lf µ = %.10lf da\n\n", value, value * 1e-7);
+            printf("%.3lf µ = %.11lf h\n\n", value, value * 1e-8);
+            printf("%.3lf µ = %.12lf k\n\n", value, value * 1e-9);
+            printf("%.3lf µ = %.15lf M\n\n", value, value * 1e-12);
+            printf("%.3lf µ = %.18lf G\n\n", value, value * 1e-15);
+            printf("%.3lf µ = %.21lf T\n\n", value, value * 1e-18);
+            printf("%.3lf µ = %.24lf P\n\n\n", value, value * 1e-21);
             break;
         case 5:
             printf("\n\n>> Enter the value: ");
@@ -1093,9 +1139,8 @@ void Speed() {
 }
 
 void Temperature() {
+
     system("cls");
-    double value, result;
-    int choice;
 
     printf("\t\t\t\t\t\t##########################\n");
     printf("\t\t\t\t\t\t# Temperature Conversion #\n");
@@ -1186,31 +1231,37 @@ void Time() {
         case 1:
           printf("\n\n>> Enter the value: ");
           scanf("%lf", &value);
+          value =  abs(value);
           printf("\n\nThe Result  = %.3lf min\n\n",  value * 60);
           break;
         case 2:
           printf("\n\n>> Enter the value: ");
           scanf("%lf", &value);
+          value =  abs(value);
           printf("\n\nThe Result  = %.3lf hr\n\n",  value /60);
           break;
         case 3:
           printf("\n\n>> Enter the value: ");
           scanf("%lf", &value);
+          value =  abs(value);
           printf("\n\nThe Result  = %.3lf sec\n\n",  value * 60 * 60);
           break;
         case 4:
           printf("\n\n>> Enter the value: ");
           scanf("%lf", &value);
+          value =  abs(value);
           printf("\n\nThe Result  = %.3lf hr\n\n",   value /(60 * 60));
           break;
         case 5:
           printf("\n\n>> Enter the value: ");
           scanf("%lf", &value);
+          value =  abs(value);
           printf("\n\nThe Result  = %.3lf sec\n\n",  value * 60);
           break;
         case 6:
           printf("\n\n>> Enter the value: ");
           scanf("%lf", &value);
+          value =  abs(value);
           printf("\n\nThe Result  = %.3lf min\n\n",  value / 60);
           break;
         case 7:
@@ -1268,79 +1319,90 @@ void Volume() {
     scanf("%d", &choice);
 
 
-    printf("\n\n>> Enter the value: ");
-    scanf("%lf", &value);
-
 
     switch(choice) {
         case(1):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic centimeters = %.7lf cubic meters\n", value, value*.000001);
             break;
         case(2):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic meters = %.3lf cubic centimeters\n", value, value*1000000);
             break;
         case(3):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic centimeters = %.3lf liters\n", value, value*0.001);
             break;
         case(4):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf liters = %.3lf cubic centimeters\n", value, value*1000);
             break;
         case(5):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic centimeters = %.6lf gallons\n\n", value, value*0.00026417);
             break;
         case(6):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf gallons = %.3lf cubic centimeters\n\n", value, value*3785.41);
             break;
         case(7):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic centimeters = %.7lf barrels\n\n", value, value*0.000006289);
             break;
         case(8):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf barrels = %.3lf cubic centimeters\n\n", value, value*158987.29);
             break;
         case(9):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic meters = %.3lf liters\n\n", value, value*1000 );
             break;
         case(10):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf liters = %.4lf cubic meters\n\n", value, value*0.001);
             break;
         case(11):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic meters = %.3lf gallons\n\n",value,value*264.17);
             break;
         case(12):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf gallons = %.4lf cubic meters\n\n", value, value*0.003785);
             break;
         case(13):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf cubic meters = %.3lf barrels\n\n", value, value*8.386);
             break;
         case(14):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf barrels = %.3lf cubic meters\n\n", value, value*0.11924);
             break;
         case(15):
@@ -1351,26 +1413,31 @@ void Volume() {
         case(16):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf gallons = %.3lf liters\n\n", value, value*3.7854);
             break;
         case(17):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf liters = %.4lf  barrels\n\n", value, value*0.008386);
             break;
         case(18):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf barrels = %.3lf liters\n\n", value, value*119.24);
             break;
         case(19):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf gallons = %.3lf barrels\n\n", value, value*0.031746);
             break;
         case(20):
             printf("\n\n>> Enter the value: ");
             scanf("%lf", &value);
+            value =  abs(value);
             printf("\n\n%.3lf barrels = %.3lf gallons\n\n", value, value*31.5);
             break;
         case (21):
